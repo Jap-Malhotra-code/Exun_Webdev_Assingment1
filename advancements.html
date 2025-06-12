@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGrit - Tech Advancements</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="TechGritLogo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="index.html" class="logo" aria-label="TechGrit Home">
+                <img src="TechGritLogo.png" alt="TechGrit Logo" class="logo-img" loading="lazy">
+                <span>TechGrit</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html" data-tooltip="Go to Home">Home</a>
+                <a href="contact.html" data-tooltip="Contact Us">Contact</a>
+                <a href="advancements.html" aria-current="page" data-tooltip="You are here">Tech Advancements</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <main>
+            <section class="advancements animate-on-scroll-advancements">
+                <div class="container">
+                    <h2>Latest Tech Advancements</h2>
+                    <div id="latestNewsContent" class="advancement-grid"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <p>© 2025 TechGrit. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGrit - Home</title>
+    <link rel="stylesheet" href="styles.css?v=1">
+    <link rel="icon" href="TechGritLogo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="index.html" class="logo" aria-label="TechGrit Home">
+                <img src="TechGritLogo.png" alt="TechGrit Logo" class="logo-img" loading="lazy">
+                <span>TechGrit</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html" aria-current="page" data-tooltip="You are here">Home</a>
+                <a href="contact.html" data-tooltip="Get in touch with us">Contact</a>
+                <a href="advancements.html" data-tooltip="Explore the latest tech news">Tech Advancements</a>
+            </div>
+        </div>
+    </nav>
+
+    <button id="toggleSidebar" class="toggle-btn" aria-label="Toggle Sidebar">Latest News</button>
+    <section class="hero" id="hero">
+	<div class="hero-background"></div>
+        <div class="hero-content animate-fade-in">
+            <h1>Welcome to TechGrit</h1>
+            <p>Empowering the Future with Innovative Tech Solutions</p>
+            <a href="advancements.html" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <div class="main-content">
+        <main>
+            <section class="about" id="about">
+                <div class="container">
+                    <h2>About TechGrit</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>TechGrit, founded by Jap Malhotra, is a dynamic technology startup dedicated to delivering cutting-edge solutions that transform industries.</p>
+                            <p><strong>Mission:</strong> To create technology that inspires, connects, and empowers communities worldwide.</p>
+                            <p><strong>Vision:</strong> To be a global leader in innovative tech solutions, driving progress and positive change.</p>
+                        </div>
+                        <div class="about-images">
+                            <img src="Supportimg2.png" alt="TechGrit Support Image 2" class="about-img" loading="lazy">
+                            <img src="TechGritLogo.png" alt="TechGrit Logo" class="about-img" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features" id="services">
+                <div class="container">
+                    <h2>Our Innovative Solutions</h2>
+                    <div class="feature-grid">
+                        <article class="feature-card">
+                            <h3>Scalable Solutions</h3>
+                            <p>Our product offers scalable technology to meet the needs of businesses of all sizes.</p>
+                        </article>
+                        <article class="feature-card">
+                            <h3>User-Centric Design</h3>
+                            <p>Designed with users in mind, our product provides an intuitive experience.</p>
+                        </article>
+                        <article class="feature-card">
+                            <h3>AI-Powered Insights</h3>
+                            <p>Leverage AI to gain actionable insights and stay ahead in the market.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <aside class="sidebar" id="sidebar" aria-label="Latest News">
+            <h3>Latest News</h3>
+            <div id="latestNewsContent" class="news-list"></div>
+        </aside>
+    </div>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <p>© 2025 TechGrit. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="contact.html">Contact</a>
+                <a href="advancements.html">Tech Advancements</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
